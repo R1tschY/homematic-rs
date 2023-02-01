@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["macros"] }
-xrs-xmlrpc = { path = "../../src/xrs/components/xmlrpc", features = ["base64", "reqwest"] }
+xrs-xmlrpc = { git = "https://github.com/R1tschY/xrs.git", branch = "master", features = ["base64", "reqwest"] }
 reqwest = "^0.11.13"
 log = "0.4.17"
 bitflags = "1.3"
